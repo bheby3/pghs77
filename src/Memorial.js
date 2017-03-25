@@ -25,14 +25,6 @@ const tilesData = [
     title: 'Sandra Harmer'
   },
   {
-    img: './lisaAllred.png',
-    title: 'Lisa Allred',
-  },
-  {
-    img: './karenBartley.png',
-    title: 'Karen Bartley',
-  },
-  {
     img: './keithSayre.png',
     title: 'Keith Sayre',
   },
@@ -52,6 +44,10 @@ const tilesData = [
     img: './teresaStreet.png',
     title: 'Teresa Street',
   },
+  {
+    img: './monicListon.png',
+    title: 'Monic Liston'
+  }
 ];
 
 const Memorial = () => (
