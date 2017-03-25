@@ -25,14 +25,6 @@ const tilesData = [
     title: 'Sandra Harmer'
   },
   {
-    img: './lisaAllred.png',
-    title: 'Lisa Allred',
-  },
-  {
-    img: './karenBartley.png',
-    title: 'Karen Bartley',
-  },
-  {
     img: './keithSayre.png',
     title: 'Keith Sayre',
   },
@@ -52,13 +44,17 @@ const tilesData = [
     img: './teresaStreet.png',
     title: 'Teresa Street',
   },
+  {
+    img: './monicListon.png',
+    title: 'Monic Liston'
+  }
 ];
 
 const Memorial = () => (
   <div className={cx('App')}>
     <div className={cx('App-header')}>
-      <h1>PGHS Class of 77</h1>
-      <h2>Those who have passed away:</h2>
+      <h1 className="header">PGHS Class of 77</h1>
+      <h2 className="header">Those who have passed away:</h2>
     </div>
     <Links/>
     <br/><br/>
