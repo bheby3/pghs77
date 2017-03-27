@@ -1,6 +1,6 @@
 import React from 'react';
 import Links from './Nav.js'
-import {GridList, GridTile} from 'material-ui/GridList';
+import {GridList, GridTile} from 'material-ui/GridList'
 import classNames from 'classnames/bind';
 import style from './App.css';
 const cx = classNames.bind(style);
@@ -51,14 +51,14 @@ const tilesData = [
 ];
 
 const Memorial = () => (
-  <div className={cx('App')}>
+  <div className={cx('App-memorial')}>
     <div className={cx('App-header')}>
-      <h1 className="header">PGHS Class of 77</h1>
-      <h2 className="header">Those who have passed away:</h2>
+      <img className={cx('viking')} src="https://pbs.twimg.com/profile_images/1324402503/twitter-profile-pic_400x400.png" alt=""/>
+      <div className="header" style={{fontSize: '60px', fontWeight: 900, borderBottom: '1px solid', paddingBottom: '10px'}}>PGHS Class of 77</div>
+      <div className="header" style={{fontSize: '30px', fontWeight: 900, paddingTop: '10px'}}>Those who have passed away:</div>
     </div>
-    <Links/>
-    <br/><br/>
     <div className="memorialWrapper">
+      <Links/>
       <div style={styles.root}>
         <GridList
           cellHeight={290}
