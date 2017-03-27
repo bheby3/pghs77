@@ -43,7 +43,7 @@ const Home = () => (
           <ListItem>
             <div className="bold-title"><span>Hike to the "G" 10:00am:  </span>
               Leave from Kiwanis park at the top of 200 S. (Battle Creek).
-            <span >For some of us it might be the last time before our knees give out.  We're not getting any younger.
+            <span> For some of us it might be the last time before our knees give out.  We're not getting any younger.
             For those who can’t do the hike, come anyway and watch live pictures and video from drones of those making the hike.
             Water will be provided.
           </span></div>
