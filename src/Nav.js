@@ -6,8 +6,8 @@ const cx = classNames.bind(styles);
 
 const Links = () => (
   <nav  className={cx('navContainer')}>
-    <Link className={cx('navSpacing')} to="/">Home</Link>
-    <Link className={cx('navSpacing')} to={{pathname: '/memorial'}}>Memorial</Link>
+    <Link className={cx('navSpacing')} to="/"><a>HOME</a></Link>
+    <Link className={cx('navSpacing')} to={{pathname: '/memorial'}}><a>MEMORIAL</a></Link>
   </nav>
 );
 
