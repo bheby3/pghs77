@@ -106,12 +106,6 @@
 }
 
 .bold-title:hover {
-  border: 1px solid black;
-  background-color: white;
-}
-
-.day:hover {
-  background-color: white;
 }
 
 a {
