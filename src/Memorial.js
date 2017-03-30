@@ -29,7 +29,7 @@ const tilesData = [
     title: 'Keith Sayre',
   },
   {
-    img: './annetteWall.png',
+    img: './annetteWallResized.png',
     title: 'Annette Wall',
   },
   {
