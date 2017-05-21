@@ -3,7 +3,7 @@
 }
 
 .memorialWrapper {
-
+  margin-top: 50px;
 }
 
 .App-logo {
@@ -12,11 +12,32 @@
   border: 1px solid black;
 }
 
-.viking {
+.viking1 {
   position: absolute;
-  top: 0%;
-  left: 207px;
-  width: 190px;
+  top: 5%;
+  left: 107px;
+  width: 320px;
+}
+
+.viking2 {
+  position: absolute;
+  top: 5%;
+  right: 107px;
+  width: 320px;
+}
+
+.viking3 {
+  position: absolute;
+  top: 5%;
+  left: 27px;
+  width: 220px;
+}
+
+.viking4 {
+  position: absolute;
+  top: 5%;
+  right: 27px;
+  width: 220px;
 }
 
 .App-header {
@@ -86,6 +107,20 @@
   flex-direction: column;
 }
 
+.searchList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchList1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .bold-title {
   font-weight: bold;
   font-size: 35px;
@@ -121,5 +156,6 @@ a:link {
   justify-content: center;
   padding: 20px 0 0 0;
   font-size: 20px;
-
+  margin-bottom: 20px;
+  font-weight: bold;
 }

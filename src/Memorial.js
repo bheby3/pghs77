@@ -52,14 +52,16 @@ const tilesData = [
 
 const Memorial = () => (
   <div className={cx('App-memorial')}>
-    <div className={cx('App-header')}>
+   {/* <div className={cx('App-header')}>
       <img className={cx('viking')} src="https://pbs.twimg.com/profile_images/1324402503/twitter-profile-pic_400x400.png" alt=""/>
       <div className="header" style={{fontSize: '60px', fontWeight: 900, borderBottom: '1px solid', paddingBottom: '10px'}}>PGHS Class of 77</div>
       <div className="header" style={{fontSize: '30px', fontWeight: 900, paddingTop: '10px'}}>Those who have passed away:</div>
-    </div>
+    </div>*/}
+    <img className={cx('viking3')} src="./viking.png" width='200px' height="auto" alt=""/>
+    <img className={cx('viking4')} src="./viking.png" width='200px' height="auto" alt=""/>
     <div className="memorialWrapper">
-      <Links/>
       <div style={styles.root}>
+        <Links/>
         <GridList
           cellHeight={290}
           cols={4}
